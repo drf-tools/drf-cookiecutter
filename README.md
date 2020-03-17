@@ -22,7 +22,7 @@ pip install -U cookiecutter
 Generate a Django devops project:
 
 ```
-cookiecutter git@github.com:tranquochuy/drf-cookiecutter.git
+cookiecutter https://github.com/drf-tools/drf-cookiecutter.git
 ```
 
 ## Configuration
