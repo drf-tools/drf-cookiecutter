@@ -12,7 +12,8 @@ ENV PYTHONUNBUFFERED 1
 RUN apt-get update && \
     apt-get install -y \
         gcc \
-        libc-dev
+        libc-dev \
+        git
 
 # Install jq and awscli helps docker can get params from SSM
 RUN pip install awscli

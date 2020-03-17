@@ -14,10 +14,6 @@ ALLOWED_HOSTS += [
     '127.0.0.1',
 ]
 
-INSTALLED_APPS += [
-    'debug',
-]
-
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 DATABASES = {
