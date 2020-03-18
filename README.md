@@ -37,17 +37,17 @@ cookiecutter https://github.com/drf-tools/drf-cookiecutter.git
 
 ### From the top to bottom.
 
-**bin/**
-This folder contains all scripts from migration, run the app, to build Docker images.
+* **bin/**
+    * This folder contains all scripts from migration, run the app, to build Docker images.
 
-**doc/**
-Hand written APIs documentation and API design for different environments.
+* **doc/**
+    * Hand written APIs documentation and API design for different environments.
 
-**requirements/**
-Hold all dependencies modules and their versions.
+* **requirements/**
+    * Hold all dependencies modules and their versions.
 
-**src/**
-Source code of the project goes here.
+* **src/**
+    * Source code of the project goes here.
 
 --------------------------------------------
 Here is the folder tree of generated source.
