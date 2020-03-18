@@ -13,6 +13,7 @@ This project helps to generate simple Django app.
 
 ## Quickstart
 
+### Generate source code for new project
 Install the latest Cookiecutter if you haven't installed it yet (this requires Cookiecutter 1.4.0 or higher):
 
 ```
@@ -24,6 +25,8 @@ Generate a Django devops project:
 ```
 cookiecutter https://github.com/drf-tools/drf-cookiecutter.git
 ```
+
+After it's done, please follow the README.md of the generated app to run it.
 
 ## What's in it?
 

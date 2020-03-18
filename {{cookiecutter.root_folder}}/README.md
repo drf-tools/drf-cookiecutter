@@ -29,38 +29,40 @@ This project using the following versioning:
 1. Installing mkvirtualenv
 This project uses [mkvirtualenv](https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html) for virtual environment.
 
-```
+```bash
 mkvirtualenv -p $(which python3.8) my_env
 ```
 
 2. Install python packages.
 
-```
-pip install -r requirements/all.txt
+```bash
+bin/install.sh
 ```
 
 3. Seeding the test data
 
-```
+```bash
+bin/dj-makemigrations.sh
+bin/dj-migrate.sh
 bin/dj-initdata.sh
 ```
 
 4. Start the server
 
-```
+```bash
 bin/dj-run.sh
 ```
 
 **Run with Docker compose**
 
 1. Build docker images
-```
+```bash
 docker-compose build
 ```
 
 2. Get Docker compose up
 
-```
+```bash
 docker-compose up
 ```
 
