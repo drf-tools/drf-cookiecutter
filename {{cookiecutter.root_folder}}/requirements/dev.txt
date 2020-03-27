@@ -8,4 +8,4 @@ drf-core==0.0.3
 
 # Django REST framework generator
 # https://pypi.org/project/drf-app-generators/
-drf-app-generators==0.1.3
+drf-app-generators==0.1.4
