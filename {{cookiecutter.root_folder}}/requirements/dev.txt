@@ -4,8 +4,8 @@ drf-yasg==1.17.0
 
 # Django REST framework core
 # https://pypi.org/project/drf-core/
-drf-core==0.0.2
+drf-core==0.0.3
 
 # Django REST framework generator
 # https://pypi.org/project/drf-app-generators/
-drf-app-generators==0.0.4
+drf-app-generators==0.1.3
