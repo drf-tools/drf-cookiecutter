@@ -37,7 +37,10 @@ class LoginView(apis.BaseFunctionView):
         user = authenticate(username=username, password=password)
 
         if user is None:
-            return self.bad_request(message='Can not authenticate user', code=400)
+            return self.bad_request(
+                message='Can not authenticate user',
+                code=400
+            )
 
         # get user data.
         user_data = AuthenticateSerializer(user)
@@ -50,7 +53,9 @@ class LogoutView(apis.BaseFunctionView):
     Single function view for logout API.
     """
 
-    @apis.authentication_classes((apis.SessionAuthentication, apis.TokenAuthentication))
+    @apis.authentication_classes(
+        (apis.SessionAuthentication, apis.TokenAuthentication)
+    )
     @apis.permission_classes((apis.IsAuthenticated,))
     def get(self, request, format=None):
         """

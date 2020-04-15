@@ -9,3 +9,7 @@ drf-core==0.0.3
 # Django REST framework generator
 # https://pypi.org/project/drf-app-generators/
 drf-app-generators==0.1.4
+
+# Flake8: Your Tool For Style Guide Enforcement
+# https://flake8.pycqa.org/en/latest/
+flake8==3.7.9

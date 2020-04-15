@@ -58,6 +58,7 @@ class SuperUserFactory(UserFactory):
     is_superuser = True
     password = test_password
 
+
 apps = [
     UserFactory,
     SuperUserFactory,

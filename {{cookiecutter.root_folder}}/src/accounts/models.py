@@ -3,7 +3,6 @@ from rest_framework.authtoken.models import Token # noqa
 
 from django.db import models
 from drf_core.models import create_api_key
-from drf_core import fields
 
 
 class User(AbstractUser):

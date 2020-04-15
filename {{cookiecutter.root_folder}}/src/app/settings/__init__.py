@@ -10,7 +10,7 @@ To change settings file:
 
 from os import environ
 
-from split_settings.tools import include, optional
+from split_settings.tools import include
 
 # Managing environment via DJANGO_ENV variable:
 environ.setdefault('DJANGO_ENV', 'local')

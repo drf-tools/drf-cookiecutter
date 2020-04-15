@@ -1,12 +1,9 @@
 import os
 from app.settings.components.common import (
-    INSTALLED_APPS,
-    MIDDLEWARE,
+    ALLOWED_HOSTS,
 )
-from app.settings.components import BASE_DIR
 
 # development settings
-
 DEBUG = True
 
 ALLOWED_HOSTS += [

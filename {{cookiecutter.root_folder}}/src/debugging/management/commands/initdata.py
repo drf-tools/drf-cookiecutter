@@ -1,7 +1,6 @@
 from django.core.management.base import BaseCommand
 from . import log
 from drf_core.sampling import Sampling
-from drf_core import factories
 
 
 class Command(BaseCommand):
