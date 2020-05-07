@@ -13,3 +13,6 @@ drf-app-generators==0.1.5
 # Flake8: Your Tool For Style Guide Enforcement
 # https://flake8.pycqa.org/en/latest/
 flake8==3.7.9
+
+# https://pypi.org/project/pylint/
+pylint==2.5.2
