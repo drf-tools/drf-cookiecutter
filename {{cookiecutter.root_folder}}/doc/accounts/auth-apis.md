@@ -57,7 +57,7 @@ curl -X POST \
 
 ```
 {
-    "email": "admin@jobwell.com",
+    "email": "admin@domain.com",
     "first_name": "Admin",
     "id": 1,
     "last_name": "User",

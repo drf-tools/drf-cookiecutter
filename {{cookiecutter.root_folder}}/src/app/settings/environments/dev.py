@@ -1,7 +1,9 @@
 import os
+{%- if cookiecutter.infrastructure == 'gcp' %}
 from google.oauth2 import service_account
 
 from app.settings.components import BASE_DIR
+{%- endif %}
 from app.settings.components.common import (
     ALLOWED_HOSTS,
 )
