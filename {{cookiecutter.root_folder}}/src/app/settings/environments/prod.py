@@ -22,3 +22,20 @@ DATABASES = {
         'PORT': '',
     }
 }
+
+{%- if cookiecutter.infrastructure == 'gcp' %}
+
+# Google Storage for static files.
+STATICFILES_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+GS_BUCKET_NAME = 'your-bucket-name'
+GS_PROJECT_ID = 'your-project-id'
+
+STATIC_URL = 'https://storage.googleapis.com/{}/'.format(GS_BUCKET_NAME)
+STATIC_ROOT = 'static/'
+
+# Credential file should be located on the root folder.
+GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
+    os.path.join(BASE_DIR, '../credentials.json')
+)
+{%- endif %}
