@@ -8,7 +8,7 @@ coreschema==0.0.4
 # Django is a high-level Python Web framework that encourages rapid
 # development and clean, pragmatic design.
 # https://pypi.org/project/Django/
-Django==3.0.4
+Django=={{ cookiecutter.django_version }}
 
 # Collection of admin fields, decorators and mixin to help to create computed or custom fields more friendly and easy way
 # https://pypi.org/project/django-admin-easy/
@@ -27,7 +27,7 @@ django-rest-auth==0.9.5
 
 # Awesome web-browsable Web APIs.
 # https://pypi.org/project/djangorestframework/
-djangorestframework==3.11.0
+djangorestframework=={{ cookiecutter.drf_version }}
 
 # django-rest-framework-filters is an extension to Django REST framework and Django filter that makes it easy to filter across relationships.
 # https://pypi.org/project/djangorestframework-filters/
