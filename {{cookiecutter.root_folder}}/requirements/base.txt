@@ -74,7 +74,7 @@ django-split-settings==1.0.0
 
 # PIL is the Python Imaging Library by Fredrik Lundh and Contributors.
 # https://pillow.readthedocs.io/en/stable/
-Pillow==7.1.2
+Pillow==9.0.1
 
 # https://pypi.org/project/drf-nested-routers/
 drf-nested-routers==0.11.1
