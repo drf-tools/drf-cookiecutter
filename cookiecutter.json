@@ -1,10 +1,16 @@
 {
     "root_folder": "app-api",
     "project_name": "my_project",
-    "python_version": "3.8.1",
-    "django_version": "3.0.4",
-    "drf_version": "3.11.0",
-    "postgres_version": "9.6",
-    "secret_key": "x3jndnk=d58tm5%-a6*usa!l)8zo*9+y@%jm@h(v%-x@!o2n@4",
-    "infrastructure": "aws|gcp"
+    "python_version": "3.10.2",
+    "django_version": "4.1.2",
+    "drf_version": "3.14.0",
+    "postgres_version": "15.0",
+    "secret_key": "my_secret",
+    "infrastructure": "aws|gcp",
+    "latest_version": {
+        "django": "4.1.2",
+        "drf": "3.14.0",
+        "python": "3.10.2",
+        "postgres": "15.0"
+    }
 }
